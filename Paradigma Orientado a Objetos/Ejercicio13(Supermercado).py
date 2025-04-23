@@ -42,7 +42,7 @@ class Producto:
 
 from abc import ABC,abstractmethod
 
-class Categoria(ABC):
+class Categoria(ABC): #No es una interfaz, es una clase abstracta
     def __init__(self, nombre_categoria:str):
         self.nombre_categoria = nombre_categoria
     def obtener_nombre(self):
